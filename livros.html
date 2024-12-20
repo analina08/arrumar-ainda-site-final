@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="livros.css">
+    <title>Digital Bookshelf</title>
+</head>
+<body>
+    <nav class="inicio">
+        <div class="logo">
+            <h1>Digital Bookshelf</h1>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="livros.html">Biblioteca</a>
+            <a href="fale conosco.html">Contato</a>
+            <a id="botao" href="">Sobre nós</a>
+        </div>
+    </nav>
+     <section class="countdown">
+            <h2>Promoção por tempo limitado!</h2>
+            <p>Assine nosso plano de leitura agora mesmo!!</p>
+            <div id="countdown-timer">
+              <p id="countdown"></p>
+            </div>
+        </section>
+    <header>
+        <h1>Biblioteca</h1><br><br><br><br>
+    </header>
+    <main>
+        <section class="carousel-container">
+            <button id="passar1" onclick="passar1()">&lt;</button>
+            <div class="carousel">
+                <div class="book1">
+                    <img src="img/aguafresca.jpg" alt="">
+                    <h2>Lado Feio do Amor</h2>
+                    <h4>Colleen Hoover</h4>
+                    <p>um romance da autora Colleen Hoover, que explora temas como o amor, a dor e as cicatrizes emocionais deixadas por experiências passadas.</p>
+                </div>
+                <div class="book1">
+                    <img src="img/divinosrivais.jpg" alt="">
+                    <h2>Farejando o Amor</h2>
+                    <h4>Lana Ferguson</h4>
+                    <p>um romance da autora Lana Ferguson que mistura comédia, romance e mistério, com um toque leve e divertido.</p>
+                </div>
+                <div class="book1">
+                    <img src="img/farejando o amor.jpg" alt="">
+                    <h2>Promessas Cruéis</h2>
+                    <h4>Rebecca Ross</h4>
+                    <p>um romance de fantasia e mistério que faz parte da série The Waking Land.</p>
+                </div>
+                <div class="book1">
+                    <img src="img/umavidapequena.jpg" alt="">
+                    <h2>Uma Vida Pequena</h2>
+                    <h4>Hanya Yanagihara</h4>
+                    <p>um romance da autora Hanya Yanagihara, publicado em 2015.</p>
+                </div>
+                <div class="book1">
+                    <img src="img/farejando o amor.jpg" alt="">
+                    <h2>Xeque-Mate</h2>
+                    <h4>Ali Hazelhood</h4>
+                    <p> um romance com uma história envolvente de comédia romântica e tensão, onde a protagonista se vê em uma situação inusitada que mistura romance, humor e mistério.</p>
+                    
+                </div>
+            </div>
+            <button id="passar2" onclick="passar2()">&gt;</button>
+        </section>
+    </main>
+    
+    <footer>
+        <button id="scroll" class="scroll"><img src="img/upload.png" alt=""></a></button>
+        <div class="rodape">
+            <div class="contato">
+                <h2>Contato</h2>
+                <p><strong>Tem alguma reclamação? Ligue para o nosso telefone</strong>: (54) 91234-5678</p>
+                <p><strong>E-mail</strong>: digitalbookshelf@gmail.com</p>
+            </div>
+            <div class="midia">
+                <h2>Siga-nos</h2>
+                <a href="#" target="_blank"><img src="img/facebook-app-symbol.png" alt=""></a>
+                <a href="#" target="_blank"><img src="img/instagram.png" alt=""></a>
+                </div>
+            <div class="botton">
+                <p>&copy; 2024 Digital Bookshelf. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="livros.js"></script>
+</body>
+</html>

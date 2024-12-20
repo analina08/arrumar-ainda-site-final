@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    margin: 0;
+}
+.inicio{
+    background-color:#333;
+    display: flex;
+    flex-flow: row wrap;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    z-index: 10;
+}
+.logo{
+    flex: 20%;
+    text-align: left;
+    font-size: 24px;
+    margin-left: 10%;
+    color: white;
+}
+.menu{
+    flex: 70%;
+    text-align: right;
+    padding: 10px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+.menu a:hover{
+    color: white;
+    border-top: 4px solid white;
+}
+#botao{
+    background-color:white;
+    padding: 10px 25px;
+    color:#333;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin: 5%;
+}
+#botao:hover{
+    border: none;
+    background-color: #333;
+    color: white;
+}
+.cabecalho{
+   text-align: right;
+}
+.cabecalho h2{
+    font-weight: 700px;
+    font-size: 25px;
+    margin-right: 5%;
+    padding: 2px;
+    color: #333;
+}
+.cabecalho p{
+    text-align: right;
+    color: #333;
+    margin-left: 45%;
+    margin-right: 5%;
+}
+.imgcabecalho{
+    width: 100%;
+    max-width: 600px;
+    height: 40px;
+    /*height: 400px;*/
+    width: 450px;
+    position: relative;
+    top: -320px;
+    margin-left: 120px;
+    display: block;
+    z-index: 1;
+}
+.botao{
+    background-color: white;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.book{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.infor h2{
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+}
+.text{
+    display: inline-block;
+    height: 100px;
+    padding: 20px;
+    margin: 2px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 1600px;
+    text-align: left;
+    
+}
+.text:hover{
+    padding: 2%;
+}
+
+.imgbook:hover .text{
+    display: none;
+}
+.imgbook:hover .textooculto{
+    display: block;
+}
+.rodape{
+    background-color: white;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.contato h2, .midia h2{
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.contato, .midia{
+    font-size: 16px;
+}
+.botton{
+    background-color:white;
+    padding: 10px 0;
+}
+.bottongenero h2{
+    background-color:white;
+    text-align: center;
+    justify-content: center;
+    color: #333;
+    /*padding: 10px 25px;
+    border: 2px solid  #E6E6E6;
+    border-radius: 7px;*/
+    margin-top: 3px;
+    margin-left: 1%;
+}
+.bottongenero h2:hover{
+    text-decoration: none;
+    color: #333;
+}
+footer .scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #E6E6E6;
+    color: #333;
+    border: none;
+    padding: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+}

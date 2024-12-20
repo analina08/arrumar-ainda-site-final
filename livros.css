@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  "Quicksand", sans-serif;
+}
+body {
+    background-color: white;
+    color: #333;
+}
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 8px;
+}
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    font-size: 1rem;
+}
+nav a:hover {
+    color: #000;
+    font-weight: bold;
+}
+.carousel-container {
+    position: relative;
+    overflow: hidden;
+    margin: 40px auto;
+    width: 90%;
+    max-width: 1200px;
+}
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.book1 {
+    flex: 0 0 20%;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.book1 img {
+    width: 180px;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.book1 h2 {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+.book1 p {
+    color: #777;
+    margin-bottom: 15px;
+}
+.book1:hover{
+    padding: 2%;
+}
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color:white;
+    color: #333;
+    border: none;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    z-index: 10;
+    border-radius: 30%;
+}
+#passar1 {
+    left: 10px;
+}
+#passar2 {
+    right: 10px;
+}
+header h2{
+    text-align: center;
+}
+.countdown {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #222;
+    color: white;
+}
+.countdown h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+  
+#countdown-timer {
+    font-size: 28px;
+    font-weight: bold;
+}
+footer .scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(228, 221, 221);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+    z-index: 1000;
+}
